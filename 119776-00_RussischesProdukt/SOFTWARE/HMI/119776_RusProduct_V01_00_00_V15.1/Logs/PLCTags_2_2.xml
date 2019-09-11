@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
+<LogFile titleName="PLCTags_2_2.xml" projectName="C:\Users\AZO\Desktop\PLCTags_2.xlsx" typeText="Typ" messageText="Meldung" timeText="Zeit">
+  <LogEntry type="Error" dateTime="13:38:55">
+    <Message>Die in Zeile 2 von Tabellenblatt "PLC Tags" definierte Variable konnte nicht importiert werden.</Message>
+  </LogEntry>
+</LogFile>

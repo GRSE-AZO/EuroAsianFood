@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
+<LogFile titleName="HMIRusProduktAlarms Log_1.xml" projectName="D:\TiaExport\HMIRusProduktAlarms.xlsx" typeText="Type" messageText="Message" timeText="Time">
+  <LogEntry type="Information" dateTime="09:46:19 AM">
+    <Message>Import finished: 1048 discrete alarms; 0 analog alarms</Message>
+  </LogEntry>
+</LogFile>
