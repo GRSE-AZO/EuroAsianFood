@@ -1,9 +1,9 @@
 OR:: 1
-LV:: 1
-LS:: A4 Rand
+LV:: 5
+LS:: Letter 8,5" x 11"
 FL:: 
 FM:: 
-FR:: Seite {Seite} von {Seitenanzahl}
+FR:: Page {Page} of {Total}
 HL:: SIMATIC
-HM:: {Objekt}
-HR:: {Datum} {Uhrzeit}
+HM:: {Object}
+HR:: {Date} {Time}
