@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
+<LogFile titleName="HMIAlarms Log_10.xml" projectName="C:\Users\azo\Desktop\HMIAlarms.xlsx" typeText="Typ" messageText="Meldung" timeText="Zeit">
+  <LogEntry type="Information" dateTime="08:53:13">
+    <Message>Import beendet: 2720 Bitmeldungen; 0 Analogmeldungen</Message>
+  </LogEntry>
+</LogFile>

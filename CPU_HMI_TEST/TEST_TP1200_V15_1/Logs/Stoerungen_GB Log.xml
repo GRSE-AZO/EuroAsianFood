@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
+<LogFile titleName="Stoerungen_GB Log.xml" projectName="C:\Auftrag\Stoerungen_GB.xlsx" typeText="Typ" messageText="Meldung" timeText="Zeit">
+  <LogEntry type="Information" dateTime="13:35:46">
+    <Message>Import beendet: 2944 Bitmeldungen; 0 Analogmeldungen</Message>
+  </LogEntry>
+</LogFile>

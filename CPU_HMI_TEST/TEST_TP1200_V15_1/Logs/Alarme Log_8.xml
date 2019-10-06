@@ -1,0 +1,151 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
+<LogFile titleName="Alarme Log_8.xml" projectName="P:\Projekte\Standard TP1500\Standardprojekt TP1500\Alarme.xlsx" typeText="Typ" messageText="Meldung" timeText="Zeit">
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1153: Der Name Bitmeldung_1137 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1153 geändert. (Spalte 'Name', Zeile 1154).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1154: Der Name Bitmeldung_1138 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1154 geändert. (Spalte 'Name', Zeile 1155).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1155: Der Name Bitmeldung_1139 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1155 geändert. (Spalte 'Name', Zeile 1156).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1156: Der Name Bitmeldung_1140 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1156 geändert. (Spalte 'Name', Zeile 1157).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1157: Der Name Bitmeldung_1141 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1157 geändert. (Spalte 'Name', Zeile 1158).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1158: Der Name Bitmeldung_1142 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1158 geändert. (Spalte 'Name', Zeile 1159).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1159: Der Name Bitmeldung_1143 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1159 geändert. (Spalte 'Name', Zeile 1160).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1160: Der Name Bitmeldung_1144 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1160 geändert. (Spalte 'Name', Zeile 1161).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1161: Der Name Bitmeldung_1145 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1161 geändert. (Spalte 'Name', Zeile 1162).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1162: Der Name Bitmeldung_1146 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1162 geändert. (Spalte 'Name', Zeile 1163).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1163: Der Name Bitmeldung_1147 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1163 geändert. (Spalte 'Name', Zeile 1164).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1164: Der Name Bitmeldung_1148 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1164 geändert. (Spalte 'Name', Zeile 1165).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1165: Der Name Bitmeldung_1149 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1165 geändert. (Spalte 'Name', Zeile 1166).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1166: Der Name Bitmeldung_1150 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1166 geändert. (Spalte 'Name', Zeile 1167).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1167: Der Name Bitmeldung_1151 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1167 geändert. (Spalte 'Name', Zeile 1168).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1168: Der Name Bitmeldung_1152 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1168 geändert. (Spalte 'Name', Zeile 1169).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1169: Der Name Bitmeldung_1153 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1169 geändert. (Spalte 'Name', Zeile 1170).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1170: Der Name Bitmeldung_1154 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1170 geändert. (Spalte 'Name', Zeile 1171).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1171: Der Name Bitmeldung_1155 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1171 geändert. (Spalte 'Name', Zeile 1172).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1172: Der Name Bitmeldung_1156 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1172 geändert. (Spalte 'Name', Zeile 1173).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1173: Der Name Bitmeldung_1157 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1173 geändert. (Spalte 'Name', Zeile 1174).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1174: Der Name Bitmeldung_1158 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1174 geändert. (Spalte 'Name', Zeile 1175).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1175: Der Name Bitmeldung_1159 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1175 geändert. (Spalte 'Name', Zeile 1176).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1176: Der Name Bitmeldung_1160 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1176 geändert. (Spalte 'Name', Zeile 1177).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1177: Der Name Bitmeldung_1161 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1177 geändert. (Spalte 'Name', Zeile 1178).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1178: Der Name Bitmeldung_1162 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1178 geändert. (Spalte 'Name', Zeile 1179).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1179: Der Name Bitmeldung_1163 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1179 geändert. (Spalte 'Name', Zeile 1180).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1180: Der Name Bitmeldung_1164 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1180 geändert. (Spalte 'Name', Zeile 1181).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1181: Der Name Bitmeldung_1165 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1181 geändert. (Spalte 'Name', Zeile 1182).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1182: Der Name Bitmeldung_1166 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1182 geändert. (Spalte 'Name', Zeile 1183).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1183: Der Name Bitmeldung_1167 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1183 geändert. (Spalte 'Name', Zeile 1184).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1184: Der Name Bitmeldung_1168 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1184 geändert. (Spalte 'Name', Zeile 1185).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1185: Der Name Bitmeldung_1169 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1185 geändert. (Spalte 'Name', Zeile 1186).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1186: Der Name Bitmeldung_1170 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1186 geändert. (Spalte 'Name', Zeile 1187).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1187: Der Name Bitmeldung_1171 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1187 geändert. (Spalte 'Name', Zeile 1188).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1188: Der Name Bitmeldung_1172 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1188 geändert. (Spalte 'Name', Zeile 1189).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1189: Der Name Bitmeldung_1173 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1189 geändert. (Spalte 'Name', Zeile 1190).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1190: Der Name Bitmeldung_1174 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1190 geändert. (Spalte 'Name', Zeile 1191).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1191: Der Name Bitmeldung_1175 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1191 geändert. (Spalte 'Name', Zeile 1192).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1192: Der Name Bitmeldung_1176 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1192 geändert. (Spalte 'Name', Zeile 1193).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1193: Der Name Bitmeldung_1177 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1193 geändert. (Spalte 'Name', Zeile 1194).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1194: Der Name Bitmeldung_1178 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1194 geändert. (Spalte 'Name', Zeile 1195).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1195: Der Name Bitmeldung_1179 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1195 geändert. (Spalte 'Name', Zeile 1196).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1196: Der Name Bitmeldung_1180 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1196 geändert. (Spalte 'Name', Zeile 1197).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1197: Der Name Bitmeldung_1181 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1197 geändert. (Spalte 'Name', Zeile 1198).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1198: Der Name Bitmeldung_1182 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1198 geändert. (Spalte 'Name', Zeile 1199).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1199: Der Name Bitmeldung_1183 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1199 geändert. (Spalte 'Name', Zeile 1200).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:45:46">
+    <Message>Meldenummer 1200: Der Name Bitmeldung_1184 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1200 geändert. (Spalte 'Name', Zeile 1201).</Message>
+  </LogEntry>
+  <LogEntry type="Information" dateTime="11:45:46">
+    <Message>Import beendet: 1200 Bitmeldungen; 0 Analogmeldungen</Message>
+  </LogEntry>
+</LogFile>

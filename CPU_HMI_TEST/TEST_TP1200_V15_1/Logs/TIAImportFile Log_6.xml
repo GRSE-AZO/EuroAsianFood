@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
+<LogFile titleName="TIAImportFile Log_6.xml" projectName="D:\AZO_SVN\_T\1000000-0_TestS7HMI\DOCS\TIAImportFile.xlsx" typeText="Type" messageText="Message" timeText="Time">
+  <LogEntry type="Warning" dateTime="10:31:41 AM">
+    <Message>The version is not specified in the XLSX file. The latest version is assumed for the import.</Message>
+  </LogEntry>
+  <LogEntry type="Information" dateTime="10:31:41 AM">
+    <Message>Import finished: 16 tag(s) imported.</Message>
+  </LogEntry>
+</LogFile>

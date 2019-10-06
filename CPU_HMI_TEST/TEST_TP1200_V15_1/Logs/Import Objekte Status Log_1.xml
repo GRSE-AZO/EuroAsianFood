@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
+<LogFile titleName="Import Objekte Status Log_1.xml" projectName="C:\Users\azo\Desktop\Import Objekte Status.xlsx" typeText="Typ" messageText="Meldung" timeText="Zeit">
+  <LogEntry type="Error" dateTime="09:43:22">
+    <Message>In Arbeitsblatt Hmi Tags befinden sich unbekannte Header-Informationen Range2 Maximum Type. Der Import wird abgebrochen.</Message>
+  </LogEntry>
+</LogFile>

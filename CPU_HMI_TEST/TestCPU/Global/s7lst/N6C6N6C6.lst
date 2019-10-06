@@ -1,0 +1,827 @@
+"V01.00.000"
+"$_Languages"
+"7(1) German (Germany)";"9(2) English (United Kingdom)";"513(1) Key"
+"$_Timestamp"
+"02.08.2018  11:15:40";"02.08.2018  11:15:40";"02.08.2018  11:15:40"
+"$_Typ(NetworkComment)"
+" Zeiger auf EA-Adresse berechnen";" Zeiger auf EA-Adresse berechnen";""
+"Analogwert einlesen
+Formel:   Wert = UG + (OG-UG)*(E-MinDigit) / (MaxDigit-MminDigit)";"Analogwert einlesen
+Formel:   Wert = UG + (OG-UG)*(E-MinDigit) / (MaxDigit-MminDigit)";""
+"AnalogWert ausgeben:
+Formel : A = MinDigit+(MaxDigit-MinDigit)*(Wert-UG)/ (Og-UG)";"AnalogWert ausgeben:
+Formel : A = MinDigit+(MaxDigit-MinDigit)*(Wert-UG)/ (Og-UG)";""
+"Gewichtwert über Analogeingangskarte einlesen
+Aufruf FB22 Kommunikation zu MV1 über Analogwerteingang";"Gewichtwert über Analogeingangskarte einlesen
+Aufruf FB22 Kommunikation zu MV1 über Analogwerteingang";""
+"Gewichtwert über Siwarex U einlesen
+Aufruf FB20 Kommunikation zu Siwarex ";"Gewichtwert über Siwarex U einlesen
+Aufruf FB20 Kommunikation zu Siwarex ";""
+"Gewichtwert über MCS-DP-Messverstärker einlesen
+Aufruf FB21 Kommunikation zu MCS-Modul";"Gewichtwert über MCS-DP-Messverstärker einlesen
+Aufruf FB21 Kommunikation zu MCS-Modul";""
+"Gewichtwert über Siwarex M einlesen
+Aufruf FB23 Kommunikation zu Siwarex 
+(001)";"Gewichtwert über Siwarex M einlesen
+Aufruf FB23 Kommunikation zu Siwarex 
+(001)";""
+"Rezeptnummer muß > 0 und < max. Anzahl Rezepte sein";"Rezeptnummer muß > 0 und < max. Anzahl Rezepte sein";""
+"freien Lagerort suchen";"freien Lagerort suchen";""
+"Chargenbilanzierung wird durchgeführt wenn in den Waagenkonfigurationsbits die 
+Option ""Chargenbilanzierung"" angewählt ist ";"Chargenbilanzierung wird durchgeführt wenn in den Waagenkonfigurationsbits die 
+Option ""Chargenbilanzierung"" angewählt ist ";""
+"// (001) ";"// (001) ";""
+"wird benötigt wenn z.B. von OP oder Intouch die Waage bedient wird
+(014)";"wird benötigt wenn z.B. von OP oder Intouch die Waage bedient wird
+(014)";""
+"(048)
+10^x = e^ln10*x";"(048)
+10^x = e^ln10*x";""
+"(042)
+Bit ""letzte Teilverwiegung"" löschen bei Kontrollverwiegung mit Chargenopt. 
+wenn Waagengrenzen überschritten werden.";"(042)
+Bit ""letzte Teilverwiegung"" löschen bei Kontrollverwiegung mit Chargenopt. 
+wenn Waagengrenzen überschritten werden.";""
+"(069)
+Bit ""letzte Teilverwiegung"" setzen wenn eine Kontrollverwiegung mit Chargenopt. 
+vor der letzten Teilverwiegung quittiert wird.";"(069)
+Bit ""letzte Teilverwiegung"" setzen wenn eine Kontrollverwiegung mit Chargenopt. 
+vor der letzten Teilverwiegung quittiert wird.";""
+"Kontrolle ob Lagerortnummer > 0 ";"Kontrolle ob Lagerortnummer > 0 ";""
+"Es erfolgt keine Prüfung, deshalb wird auf -1 verglichen ";"Es erfolgt keine Prüfung, deshalb wird auf -1 verglichen ";""
+"Prüfen ob Chargenoptimierung notwendig ist";"Prüfen ob Chargenoptimierung notwendig ist";""
+"Chargenoptimierung positiv Verwiegung 
+
+Bedingungen für Entleerung bei Chargenoptimierung
+   UND  Zwischenentleeren nach Teilverwiegung (Bed.1.1)
+   ODER
+   UND  restl. Sollgewicht < max. Sollwert-Leerpegel (Bed.2.1)
+   UND  restl. Sollgewicht > max. Sollwert-akt. Bruttogewicht (Bed.2.2)
+   ODER
+   UND  restl. Sollgewicht > 2*max. Sollwert-Bruttogewicht-Leerpegel (Bed.3.1) 
+   UND  akt. Bruttogewicht > Leerpegel (Bed.3.2)
+   UND  vorherige Verwiegeart <> 4 (Bed.3.3)";"Chargenoptimierung positiv Verwiegung 
+
+Bedingungen für Entleerung bei Chargenoptimierung
+   UND  Zwischenentleeren nach Teilverwiegung (Bed.1.1)
+   ODER
+   UND  restl. Sollgewicht < max. Sollwert-Leerpegel (Bed.2.1)
+   UND  restl. Sollgewicht > max. Sollwert-akt. Bruttogewicht (Bed.2.2)
+   ODER
+   UND  restl. Sollgewicht > 2*max. Sollwert-Bruttogewicht-Leerpegel (Bed.3.1) 
+   UND  akt. Bruttogewicht > Leerpegel (Bed.3.2)
+   UND  vorherige Verwiegeart <> 4 (Bed.3.3)";""
+"Chargenoptimierung negativ Verwiegung 
+
+Bedingungen für Befüllung bei Chargenoptimierung
+   UND  Zwischenbefüllen nach Teilverwiegung (Bed.1.1)
+   ODER
+   UND  restl. Sollgewicht > Bruttogewicht - Leerpegel (Bed.2.1)
+   UND  vorherige Verwiegeart <> 8 (Bed.2.2)
+   UND  NICHT Optimierung durch Waagenkonfiguration gesperrt";"Chargenoptimierung negativ Verwiegung 
+
+Bedingungen für Befüllung bei Chargenoptimierung
+   UND  Zwischenbefüllen nach Teilverwiegung (Bed.1.1)
+   ODER
+   UND  restl. Sollgewicht > Bruttogewicht - Leerpegel (Bed.2.1)
+   UND  vorherige Verwiegeart <> 8 (Bed.2.2)
+   UND  NICHT Optimierung durch Waagenkonfiguration gesperrt";""
+"Toleranzen bei letzter Teilverwiegung aktivieren
+Fein-/Extrafeindosierung bei letzter Teilverwiegung aktivieren (bzw. immer wenn 
+Waagenkonfiguration ""Chargenopt. ohne fein dosieren"" nicht aktiviert ist) ";"Toleranzen bei letzter Teilverwiegung aktivieren
+Fein-/Extrafeindosierung bei letzter Teilverwiegung aktivieren (bzw. immer wenn 
+Waagenkonfiguration ""Chargenopt. ohne fein dosieren"" nicht aktiviert ist) ";""
+"Der Handshake ist bei Negativverwiegung mit Chargenoptimierung notwendig um 
+erkennen zu können, ob die Verwiegung fertig ist. (015)";"Der Handshake ist bei Negativverwiegung mit Chargenoptimierung notwendig um 
+erkennen zu können, ob die Verwiegung fertig ist. (015)";""
+"Komponentenbilanzierung wird durchgeführt wenn in den Waagenkonfigurationsbits 
+die Option ""Komponentenbilanzierung"" angewählt ist 
+(007)
+(068) zur besseren Darstellung an OP wurde die Reihenfolge der Bilanzierung 
+auf rückwäts geändert";"Komponentenbilanzierung wird durchgeführt wenn in den Waagenkonfigurationsbits 
+die Option ""Komponentenbilanzierung"" angewählt ist 
+(007)
+(068) zur besseren Darstellung an OP wurde die Reihenfolge der Bilanzierung 
+auf rückwäts geändert";""
+"Lagerortbilanzierung wird durchgeführt wenn in den Waagenkonfigurationsbits 
+die Option ""Lagerortbilanzierung"" angewählt ist 
+(009)";"Lagerortbilanzierung wird durchgeführt wenn in den Waagenkonfigurationsbits 
+die Option ""Lagerortbilanzierung"" angewählt ist 
+(009)";""
+"Das Netzwerk wir nur benötigt wenn Positivverwiegung benötigt wird. ";"Das Netzwerk wir nur benötigt wenn Positivverwiegung benötigt wird. ";""
+"Das Netzwerk wir nur benötigt wenn Negativverwiegung benötigt wird. ";"Das Netzwerk wir nur benötigt wenn Negativverwiegung benötigt wird. ";""
+"Das Netzwerk wir nur benötigt wenn Befüllung benötigt wird (Negativwaage). ";"Das Netzwerk wir nur benötigt wenn Befüllung benötigt wird (Negativwaage). ";""
+"Das Netzwerk wir nur benötigt wenn Entleerung benötigt wird (Positivwaage).  ";"Das Netzwerk wir nur benötigt wenn Entleerung benötigt wird (Positivwaage).  ";""
+"Die Signale werden bei Kontrollverwiegung, Abholauftrag und Handzugabe verwendet
+Das Netzwerk wir nur benötigt wenn Kontrollverwiegung, Abholauftrag oder 
+Handzugabe benötigt wird (Positivwaage). ";"Die Signale werden bei Kontrollverwiegung, Abholauftrag und Handzugabe verwendet
+Das Netzwerk wir nur benötigt wenn Kontrollverwiegung, Abholauftrag oder 
+Handzugabe benötigt wird (Positivwaage). ";""
+"Das Netzwerk wir nur benötigt wenn Handverwiegung benötigt wird.  ";"Das Netzwerk wir nur benötigt wenn Handverwiegung benötigt wird.  ";""
+"Das Netzwerk wir nur benötigt wenn Kontrollverwiegung, Abholauftrag 
+oder Handzugabe benötigt wird (Negativwaage).  ";"Das Netzwerk wir nur benötigt wenn Kontrollverwiegung, Abholauftrag 
+oder Handzugabe benötigt wird (Negativwaage).  ";""
+"(026)
+bei Positivverwiegung wird das Volumen addiert,
+bei Negativverw. oder Entleerung ohne Leermeldung wird das Volumen subtrahiert,
+bei Entleerung und Leermeldung wird Istvolumen auf 0.0 Liter gesetzt ";"(026)
+bei Positivverwiegung wird das Volumen addiert,
+bei Negativverw. oder Entleerung ohne Leermeldung wird das Volumen subtrahiert,
+bei Entleerung und Leermeldung wird Istvolumen auf 0.0 Liter gesetzt ";""
+"(026) 
+während Verwiegung (Schritt 11) -> Istvolumen gesamt = registriertes Volumen 
++ aktuelles Gewicht * spezifisches Gewicht
+während Entleerung (Schritt 11) -> Istvolumen gesamt = registriertes Volumen 
+- aktuelles Gewicht * spezifisches Gewicht
+während der Negativverwiegung (Schritt 11) ->
+Istvolumen gesamt = Bruttogewicht / spezifisches Gewicht
+sonst Istvolumen gesamt = registriertes Volumen";"(026) 
+während Verwiegung (Schritt 11) -> Istvolumen gesamt = registriertes Volumen 
++ aktuelles Gewicht * spezifisches Gewicht
+während Entleerung (Schritt 11) -> Istvolumen gesamt = registriertes Volumen 
+- aktuelles Gewicht * spezifisches Gewicht
+während der Negativverwiegung (Schritt 11) ->
+Istvolumen gesamt = Bruttogewicht / spezifisches Gewicht
+sonst Istvolumen gesamt = registriertes Volumen";""
+"aktuelle Waagenistdaten für Farbgrafik umkopieren
+Das Netzwerk wir nur benötigt wenn ein Farbgrafiksystem vorhanden ist. 
+(Positivwaage).  ";"aktuelle Waagenistdaten für Farbgrafik umkopieren
+Das Netzwerk wir nur benötigt wenn ein Farbgrafiksystem vorhanden ist. 
+(Positivwaage).  ";""
+"(044)
+10^x = e^ln10*x";"(044)
+10^x = e^ln10*x";""
+"(052)
+Wenn das Sollgewicht innerhalb des Nachlauf aber ausserhalb der Toleranz liegt 
+wird über einen berechneten Zeitwert nachdosiert. Der Zeitwert wird aus dem 
+Nachlaufwert und der Nachlaufzeit berechnet. Zur Sicherheit ist die maximale 
+Dosierzeit auf 10 Sekunden begrenzt. Weiterhin kann insgesamt maximal 5x 
+nachdosiert werden. 
+Die Nachdosierzeit läuft erst wenn das Statussignal ""Dosierorgan aktiv"" 
+ansteht. 
+Falls während der Nachdosierzeit der Sollwert überschritten wird, wird die 
+Nachdosierung vorzeitig beendet.";"(052)
+Wenn das Sollgewicht innerhalb des Nachlauf aber ausserhalb der Toleranz liegt 
+wird über einen berechneten Zeitwert nachdosiert. Der Zeitwert wird aus dem 
+Nachlaufwert und der Nachlaufzeit berechnet. Zur Sicherheit ist die maximale 
+Dosierzeit auf 10 Sekunden begrenzt. Weiterhin kann insgesamt maximal 5x 
+nachdosiert werden. 
+Die Nachdosierzeit läuft erst wenn das Statussignal ""Dosierorgan aktiv"" 
+ansteht. 
+Falls während der Nachdosierzeit der Sollwert überschritten wird, wird die 
+Nachdosierung vorzeitig beendet.";""
+"(026) 
+Nettogewicht gültig von Schritt 6 (grob dosieren) bis zum Schritt 13 
+(registrieten Gewichtwert übernehmen)
+oder im Schritt 5 (Tarieren/Beruhigen) wenn Waage angehalten wurde";"(026) 
+Nettogewicht gültig von Schritt 6 (grob dosieren) bis zum Schritt 13 
+(registrieten Gewichtwert übernehmen)
+oder im Schritt 5 (Tarieren/Beruhigen) wenn Waage angehalten wurde";""
+"(014) Netzwerk eingefügt";"(014) Netzwerk eingefügt";""
+"Gewichtwert ist immer 0.0 bei MV-Typ=0 (z.B. Handzugabe) ";"Gewichtwert ist immer 0.0 bei MV-Typ=0 (z.B. Handzugabe) ";""
+"Gewichtwert über Siwarex M eichfähig einlesen
+Aufruf FB24 Kommunikation zu Siwarex 
+(004)";"Gewichtwert über Siwarex M eichfähig einlesen
+Aufruf FB24 Kommunikation zu Siwarex 
+(004)";""
+"Gewichtwert über Promass 63 einlesen
+Aufruf FB25 Kommunikation zu Promass
+(002)";"Gewichtwert über Promass 63 einlesen
+Aufruf FB25 Kommunikation zu Promass
+(002)";""
+"Gewichtwert über FM350-2 einlesen
+Aufruf FB26 Kommunikation zu FM350-2
+(005)";"Gewichtwert über FM350-2 einlesen
+Aufruf FB26 Kommunikation zu FM350-2
+(005)";""
+"Gewichtwert über PESA einlesen
+Aufruf FB27 Kommunikation zu PESA
+(005)";"Gewichtwert über PESA einlesen
+Aufruf FB27 Kommunikation zu PESA
+(005)";""
+"Gewichtwert über Bizerba-Wägeterminal-ST einlesen
+Aufruf FB28 Kommunikation zu Bizerba Wägeterminal-ST 
+(006)";"Gewichtwert über Bizerba-Wägeterminal-ST einlesen
+Aufruf FB28 Kommunikation zu Bizerba Wägeterminal-ST 
+(006)";""
+"Gewichtwert über Mettler-Toledo MultiRange mit Feldbuskarte Profibus-DP-ID7 
+einlesen. Aufruf FB29 Kommunikation zu Mettler ID7 
+(007)";"Gewichtwert über Mettler-Toledo MultiRange mit Feldbuskarte Profibus-DP-ID7 
+einlesen. Aufruf FB29 Kommunikation zu Mettler ID7 
+(007)";""
+"Gewichtwert und Temperatur über WMD einlesen. Aufruf FB36 
+(010)";"Gewichtwert und Temperatur über WMD einlesen. Aufruf FB36 
+(010)";""
+"Gewichtwert über FM350-1 einlesen
+Aufruf FB37 Kommunikation zu FM350-1
+(011)";"Gewichtwert über FM350-1 einlesen
+Aufruf FB37 Kommunikation zu FM350-1
+(011)";""
+"Gewichtwert über gwt PR5210/00 einlesen
+Aufruf FB38 Kommunikation zu gwt PR5210/00
+(013)";"Gewichtwert über gwt PR5210/00 einlesen
+Aufruf FB38 Kommunikation zu gwt PR5210/00
+(013)";""
+"Gewichtwert über WMD Fa. Bürkert einlesen
+Aufruf FB39 Kommunikation zu WMD Bürkert
+(014)";"Gewichtwert über WMD Fa. Bürkert einlesen
+Aufruf FB39 Kommunikation zu WMD Bürkert
+(014)";""
+"Gewichtwert über Zählerbaugruppe ET200S 1Count 24V/100kHz
+Aufruf FB74 
+(014)";"Gewichtwert über Zählerbaugruppe ET200S 1Count 24V/100kHz
+Aufruf FB74 
+(014)";""
+"Gewichtwert über Siwarex CS
+Aufruf FB71
+(014)";"Gewichtwert über Siwarex CS
+Aufruf FB71
+(014)";""
+"Gewichtwert über Siwarex FTA
+Aufruf FB76
+(015)";"Gewichtwert über Siwarex FTA
+Aufruf FB76
+(015)";""
+"Gewichtwert über Mettler Profibus Modul
+Aufruf FB78
+(017)";"Gewichtwert über Mettler Profibus Modul
+Aufruf FB78
+(017)";""
+"Gewichtwert über Promag 50
+Aufruf FB81
+(018)";"Gewichtwert über Promag 50
+Aufruf FB81
+(018)";""
+"Gewichtwert über Mettler IND131, IND331, IND 560 oder IND690 
+Aufruf FB79
+(019)";"Gewichtwert über Mettler IND131, IND331, IND 560 oder IND690 
+Aufruf FB79
+(019)";""
+"Gewichtwert über Wago Zählermodul 750-404/000-005
+Aufruf FB83
+(020)";"Gewichtwert über Wago Zählermodul 750-404/000-005
+Aufruf FB83
+(020)";""
+"Gewichtwert über Optimass einlesen
+Aufruf FB84 Kommunikation zu Optimass über MFC300
+(021)";"Gewichtwert über Optimass einlesen
+Aufruf FB84 Kommunikation zu Optimass über MFC300
+(021)";""
+"Gewichtwert über Optimass einlesen
+Aufruf FB84 Kommunikation zu Optimass über MFC300
+(022)";"Gewichtwert über Optimass einlesen
+Aufruf FB84 Kommunikation zu Optimass über MFC300
+(022)";""
+"(001) 
+ ";"(001) 
+ ";""
+"Gewichtwert über Optiflux einlesen
+Aufruf FB86 Kommunikation zu Optiflux über IFC300
+(023)";"Gewichtwert über Optiflux einlesen
+Aufruf FB86 Kommunikation zu Optiflux über IFC300
+(023)";""
+"Nur ein Befehl zulassen
+Nicht unterstützte Befehle löschen";"Nur ein Befehl zulassen
+Nicht unterstützte Befehle löschen";""
+"************ Ende allgemeine Daten ***************
+";"************ Ende allgemeine Daten ***************
+";""
+"Anfang Waagenarbeits-DB aus Zuordnungsliste laden ";"Anfang Waagenarbeits-DB aus Zuordnungsliste laden ";""
+"Anfang Lagerort-Waagen-/Rezeptparameter-DB aus Zuordnungsliste laden ";"Anfang Lagerort-Waagen-/Rezeptparameter-DB aus Zuordnungsliste laden ";""
+"prüfen ob akt. Rezeptnummer > Anzahl Rezepte";"prüfen ob akt. Rezeptnummer > Anzahl Rezepte";""
+"Lagerortparameter aktualisieren ";"Lagerortparameter aktualisieren ";""
+"HSH ist Rezeptebene (Waage ist im PC-Mode) ";"HSH ist Rezeptebene (Waage ist im PC-Mode) ";""
+"Bei SPS-Auftragsmode erfolgt keine Steuerung";"Bei SPS-Auftragsmode erfolgt keine Steuerung";""
+"Farbgrafik ist Rezeptebene (Waage ist im Komponentenmode) ";"Farbgrafik ist Rezeptebene (Waage ist im Komponentenmode) ";""
+"Beim zweiten Betätigen der Taste ""Komponente abbrechen"" wird die Komponente 
+abgerochen";"Beim zweiten Betätigen der Taste ""Komponente abbrechen"" wird die Komponente 
+abgerochen";""
+"Fehler quittieren und Quittierbit löschen ";"Fehler quittieren und Quittierbit löschen ";""
+"Farbgrafik ist Auftragsebene (Waage ist im Rezeptmode) ";"Farbgrafik ist Auftragsebene (Waage ist im Rezeptmode) ";""
+"Anfang Bilanz-DB aus Zuordnungsliste laden  ";"Anfang Bilanz-DB aus Zuordnungsliste laden  ";""
+"für Rezepteingabe ";"für Rezepteingabe ";""
+"wenn Editierstatus ungespeichert abgebrochen wird!";"wenn Editierstatus ungespeichert abgebrochen wird!";""
+"Rezept- oder Komponentenmode ";"Rezept- oder Komponentenmode ";""
+"Bilnummer für Waagenabgleich bestimmen abhängig vom Messverstärkertyp
+(017)";"Bilnummer für Waagenabgleich bestimmen abhängig vom Messverstärkertyp
+(017)";""
+"Die Rezeptdaten werden solange aktualisiert bis ein Wert geändert wurde 
+!! max 20 Komponenten je Rezept möglich !!";"Die Rezeptdaten werden solange aktualisiert bis ein Wert geändert wurde 
+!! max 20 Komponenten je Rezept möglich !!";""
+"!! max 20 Komponenten je Rezept möglich !! ";"!! max 20 Komponenten je Rezept möglich !! ";""
+"(018) 
+Es werden immer 10 Bilanzeinträge je Seite dargestellt ";"(018) 
+Es werden immer 10 Bilanzeinträge je Seite dargestellt ";""
+"(005) Netzwerk eingefügt
+(Kopie aus Rezeptmode OP)";"(005) Netzwerk eingefügt
+(Kopie aus Rezeptmode OP)";""
+"Steuerbits von FG rücksetzten ";"Steuerbits von FG rücksetzten ";""
+"Die Rezeptdaten werden solange aktualisiert bis ein Wert geändert wurde !
+
+ACHTUNG: die nächsten 6 Netzwerke gehören dazu !!!";"Die Rezeptdaten werden solange aktualisiert bis ein Wert geändert wurde !
+
+ACHTUNG: die nächsten 6 Netzwerke gehören dazu !!!";""
+"Solange keine Rezeptänderungen am OP vorgenommen werden, wird hier her
+gesprungen:
+Hier werden allgemeine Daten geladen, und anschließend verglichen,
+ob jeweilige Waage zur Linie gehört. Gehört diese dazu, wird in nächstes NW
+gesprungen.";"Solange keine Rezeptänderungen am OP vorgenommen werden, wird hier her
+gesprungen:
+Hier werden allgemeine Daten geladen, und anschließend verglichen,
+ob jeweilige Waage zur Linie gehört. Gehört diese dazu, wird in nächstes NW
+gesprungen.";""
+"Lagerorts-Rezept-DB ermitteln, diesen öffnen und die 
+Konfigurationsparameter auslesen!";"Lagerorts-Rezept-DB ermitteln, diesen öffnen und die 
+Konfigurationsparameter auslesen!";""
+"Rezeptanfang und Rezeptende aus dem entsprechenden (Waagen)-Rezept-DB
+laden!";"Rezeptanfang und Rezeptende aus dem entsprechenden (Waagen)-Rezept-DB
+laden!";""
+"Steuerbits  ";"Steuerbits  ";""
+"(007)  
+Hier werden allgemeine Daten geladen, und anschließend verglichen,
+ob jeweilige Waage zur Linie gehört. Gehört diese dazu, wird in nächstes NW
+gesprungen.";"(007)  
+Hier werden allgemeine Daten geladen, und anschließend verglichen,
+ob jeweilige Waage zur Linie gehört. Gehört diese dazu, wird in nächstes NW
+gesprungen.";""
+"(007)
+Bilanz-DB ermitteln, diesen öffnen und die Konfigurationsparameter auslesen!";"(007)
+Bilanz-DB ermitteln, diesen öffnen und die Konfigurationsparameter auslesen!";""
+"(016)
+Rezept-DB ermitteln, diesen öffnen und die Konfigurationsparameter auslesen!";"(016)
+Rezept-DB ermitteln, diesen öffnen und die Konfigurationsparameter auslesen!";""
+"Rezeptlänge berechnen = max. Komponenten je Rezept * Länge Komponentendaten";"Rezeptlänge berechnen = max. Komponenten je Rezept * Länge Komponentendaten";""
+"Rezeptanfang berechnen";"Rezeptanfang berechnen";""
+"Waagenarbeits-DB aus Waagenkonfigurations-DB laden";"Waagenarbeits-DB aus Waagenkonfigurations-DB laden";""
+"Lagerort-/Rezept-Parameter-DB Waagenkonfigurations-DB laden";"Lagerort-/Rezept-Parameter-DB Waagenkonfigurations-DB laden";""
+"Waagenbilanz-DB aus Waagenkonfigurations-DB laden";"Waagenbilanz-DB aus Waagenkonfigurations-DB laden";""
+"Offset der Komponentenparameter im Farbgrafik/Terminal-DB fest bei DW 70";"Offset der Komponentenparameter im Farbgrafik/Terminal-DB fest bei DW 70";""
+"Offset und Länge der Komponentenparameter aus Lagerort-/Rezeptparameter-DB 
+laden";"Offset und Länge der Komponentenparameter aus Lagerort-/Rezeptparameter-DB 
+laden";""
+"Anzahl Komponenten je Rezept aus Lagerort-/Rezeptparameter-DB laden";"Anzahl Komponenten je Rezept aus Lagerort-/Rezeptparameter-DB laden";""
+"Anfang der aktuellen Komponente im Lagerort-/Rezeptparameter-DB ermitteln";"Anfang der aktuellen Komponente im Lagerort-/Rezeptparameter-DB ermitteln";""
+"Anfang der aktuellen Komponente, Anfang der nächsten Komponente, Anfang der 
+nächsten leeren Komponente, Ende der vorletzen Komponente und Anfang des 
+Komponentenpuffers im Farbgrafik/Terminal-DB";"Anfang der aktuellen Komponente, Anfang der nächsten Komponente, Anfang der 
+nächsten leeren Komponente, Ende der vorletzen Komponente und Anfang des 
+Komponentenpuffers im Farbgrafik/Terminal-DB";""
+"Val = ValueMin + (ValueMax-ValueMin)*(iwDigit-DigitMin)/(DigitMax-DigitMin)";"Val = ValueMin + (ValueMax-ValueMin)*(iwDigit-DigitMin)/(DigitMax-DigitMin)";""
+" 9 = scaling/overflow/underflow/broken wire: substitude value ==> grey ";" 9 = scaling/overflow/underflow/broken wire: substitude value ==> grey ";""
+"letztes Netzwerk";"letztes Netzwerk";""
+"Fehlermeldung erzeugen
+
+Fehlercode B#16#01 : Zykluszeit überschritten
+                     OB80_ERROR_INFO: Laufzeit des letzten Zyklus
+           
+           B#16#02 : Der angeforderte OB ist noch in Bearbeitung
+
+           B#16#07 : Überlauf des OB-Anforderungspuffers für die aktuelle 
+                     Prioritätsklasse
+
+           B#16#05 : abgelaufener Urzeitalarm durch Urzeitsprung
+
+           B#16#06 : abgelaufener Urzeitalarm bei Wiedereintritt 
+";"Fehlermeldung erzeugen
+
+Fehlercode B#16#01 : Zykluszeit überschritten
+                     OB80_ERROR_INFO: Laufzeit des letzten Zyklus
+           
+           B#16#02 : Der angeforderte OB ist noch in Bearbeitung
+
+           B#16#07 : Überlauf des OB-Anforderungspuffers für die aktuelle 
+                     Prioritätsklasse
+
+           B#16#05 : abgelaufener Urzeitalarm durch Urzeitsprung
+
+           B#16#06 : abgelaufener Urzeitalarm bei Wiedereintritt 
+";""
+"Fehlermeldung erzeugen
+
+Fehlercode B#16#42 : 
+";"Fehlermeldung erzeugen
+
+Fehlercode B#16#42 : 
+";""
+"Fehlermeldung erzeugen
+
+Fehlercode B#16#61 : Baugruppe gezogen bzw. nicht ansprechbar (bei 
+                     Ereignisklasse B#16#39)
+                     Baugruppe gesteckt, Baugruppentyp ok (bei
+                     Ereignisklasse B#16#38)
+           
+           B#16#63 : Baugruppe gesteckt, jedoch falscher Baugruppentyp
+
+           B#16#64 : Baugruppe gesteckt, jedoch gestört(Typkennung nicht lesbar)
+";"Fehlermeldung erzeugen
+
+Fehlercode B#16#61 : Baugruppe gezogen bzw. nicht ansprechbar (bei 
+                     Ereignisklasse B#16#39)
+                     Baugruppe gesteckt, Baugruppentyp ok (bei
+                     Ereignisklasse B#16#38)
+           
+           B#16#63 : Baugruppe gesteckt, jedoch falscher Baugruppentyp
+
+           B#16#64 : Baugruppe gesteckt, jedoch gestört(Typkennung nicht lesbar)
+";""
+"Fehlermeldung erzeugen
+
+Fehlercode B#16#A1 : Das Programm oder das Betriebssystem erzeugt ein 
+                     Startereignis für einen OB, der nicht in die CPU geladen 
+                     ist.
+
+           B#16#A2 : Das Programm oder das Betriebssystem erzeugt ein 
+                     Startereignis für einen OB, der nicht in die CPU geladen 
+                     ist.
+
+           B#16#A3 : Fehler beim Zugriff des Betriebssystems auf einen Baustein
+
+           B#16#B1 : Peripheriezugriffsfehler beim Aktualisieren des 
+                     Gesamtprozessabbildes der Eingänge
+
+           B#16#B1 : Peripheriezugriffsfehler beim Aktualisieren des            
+                     Gesamtprozessabbildes der Ausgänge
+";"Fehlermeldung erzeugen
+
+Fehlercode B#16#A1 : Das Programm oder das Betriebssystem erzeugt ein 
+                     Startereignis für einen OB, der nicht in die CPU geladen 
+                     ist.
+
+           B#16#A2 : Das Programm oder das Betriebssystem erzeugt ein 
+                     Startereignis für einen OB, der nicht in die CPU geladen 
+                     ist.
+
+           B#16#A3 : Fehler beim Zugriff des Betriebssystems auf einen Baustein
+
+           B#16#B1 : Peripheriezugriffsfehler beim Aktualisieren des 
+                     Gesamtprozessabbildes der Eingänge
+
+           B#16#B1 : Peripheriezugriffsfehler beim Aktualisieren des            
+                     Gesamtprozessabbildes der Ausgänge
+";""
+"Fehlermeldung erzeugen
+
+Fehlercode B#16#C1 : Baugruppenträgerausfall
+
+           B#16#C2 : Baugruppenträgerwiederkehr (Baugruppenträgerausfall gehend 
+                     mit Abweichung Soll-/Istausbau)
+
+           B#16#C3 : Dezentrale Peripherie: Ausfall eines DP-Mastersystems
+
+           B#16#C4 : Ausfall einer DP-Station
+
+           B#16#C5 : Störung einer DP-Station
+";"Fehlermeldung erzeugen
+
+Fehlercode B#16#C1 : Baugruppenträgerausfall
+
+           B#16#C2 : Baugruppenträgerwiederkehr (Baugruppenträgerausfall gehend 
+                     mit Abweichung Soll-/Istausbau)
+
+           B#16#C3 : Dezentrale Peripherie: Ausfall eines DP-Mastersystems
+
+           B#16#C4 : Ausfall einer DP-Station
+
+           B#16#C5 : Störung einer DP-Station
+";""
+"Fehlermeldung erzeugen
+
+Fehlercode B#16#D2 : Senden der Diagnoseeinträge nicht möglich
+
+           B#16#D3 : Synchronisationsdiagramme können nicht gesendet werden
+
+           B#16#D4 : Unzulässiger Uhrzeitsprung durch Uhrzeitsynchronisation
+
+           B#16#D5 : Fehler bei Übernahme der Synchronisationszeit
+
+           B#16#E1 : Falsche Telegrammkennung bei Globaldatenkommunikation
+
+           B#16#E3 : Telegrammlängenfehler bei Globaldatenkommunikation
+
+           B#16#E4 : Unzulässige GD-Paketnummer empfangen
+
+           B#16#E2 : GD-Paketstatus ist nicht in einen DP-eintragbar
+
+           B#16#E5 : Fehler bei Zugriff auf DB beim Datenaustausch über 
+                     Kommunikationsfunktionsbausteine
+
+           B#16#E6 : GD-Gesamtstatus ist nicht in DB eintragbar
+";"Fehlermeldung erzeugen
+
+Fehlercode B#16#D2 : Senden der Diagnoseeinträge nicht möglich
+
+           B#16#D3 : Synchronisationsdiagramme können nicht gesendet werden
+
+           B#16#D4 : Unzulässiger Uhrzeitsprung durch Uhrzeitsynchronisation
+
+           B#16#D5 : Fehler bei Übernahme der Synchronisationszeit
+
+           B#16#E1 : Falsche Telegrammkennung bei Globaldatenkommunikation
+
+           B#16#E3 : Telegrammlängenfehler bei Globaldatenkommunikation
+
+           B#16#E4 : Unzulässige GD-Paketnummer empfangen
+
+           B#16#E2 : GD-Paketstatus ist nicht in einen DP-eintragbar
+
+           B#16#E5 : Fehler bei Zugriff auf DB beim Datenaustausch über 
+                     Kommunikationsfunktionsbausteine
+
+           B#16#E6 : GD-Gesamtstatus ist nicht in DB eintragbar
+";""
+"Fehlermeldung erzeugen
+
+Fehlercode B#16#21 : BCD-Konvertierungsfehler
+                                
+           B#16#22 : Bereichslängenfehler bei lesen
+
+           B#16#23 : Bereichslängenfehler bei schreiben
+
+           B#16#28 : lesender Zugriff auf ein Byte, Wort oder Doppelwort mit 
+                     einem Pointer, dessen Bitadresse ungleich 0 ist.
+
+           B#16#29 : schreibender Zugriff auf ein Byte, Wort oder Doppelwort 
+                     mit einem Pointer, dessen Bitadresse ungleich 0 ist.
+
+           B#16#24 : Bereichsfehler bei lesen
+
+           B#16#25 : Bereichsfehler bei schreiben
+
+           B#16#26 : Fehler bei Timernummer
+
+           B#16#27 : Fehler bei Zählernummer
+
+           B#16#30 : Schreibender Zugriff auf einen schreibgeschützten Global-DB
+
+           B#16#31 : Schreibender Zugriff auf einen schreibgeschützten 
+                     Instanz-DB
+
+           B#16#32 : DB-Nummernfehler beim Zugriff auf einen Global-DB
+
+           B#16#33 : DB-Nummernfehler beim Zugriff auf einen Instanz-DB
+
+
+
+Fehlermeldung erzeugen
+
+Fehlercode B#16#21 : BCD-Konvertierungsfehler
+                                
+           B#16#22 : Bereichslängenfehler bei lesen
+
+           B#16#23 : Bereichslängenfehler bei schreiben
+
+           B#16#28 : lesender Zugriff auf ein Byte, Wort oder Doppelwort mit 
+                     einem Pointer, dessen Bitadresse ungleich 0 ist.
+
+           B#16#29 : schreibender Zugriff auf ein Byte, Wort oder Doppelwort 
+mit 
+                     einem Pointer, dessen Bitadresse ungleich 0 ist.
+
+           B#16#24 : Bereichsfehler bei lesen
+
+           B#16#25 : Bereichsfehler bei schreiben
+
+           B#16#26 : Fehler bei Timernummer
+
+           B#16#27 : Fehler bei Zählernummer
+
+           B#16#30 : Schreibender Zugriff auf einen schreibgeschützten Global-DB
+
+           B#16#31 : Schreibender Zugriff auf einen schreibgeschützten 
+                     Instanz-DB
+
+           B#16#32 : DB-Nummernfehler beim Zugriff auf einen Global-DB
+
+           B#16#33 : DB-Nummernfehler beim Zugriff auf einen Instanz-DB
+
+           B#16#34 : FC-Nummernfehler beim FC-Aufruf
+
+           B#16#35 : FB-Nummernfehler beim FB-Aufruf
+
+           B#16#3A : Zugriff auf einen nicht geladenen DB
+
+           B#16#3C : Zugriff auf einen nicht geladenen FC
+
+           B#16#3D : Zugriff auf einen nicht geladenen SFC
+
+           B#16#3E : Zugriff auf einen nicht geladenen FB
+
+           B#16#3F : Zugriff auf einen nicht geladenen SFB
+
+";"Fehlermeldung erzeugen
+
+Fehlercode B#16#21 : BCD-Konvertierungsfehler
+                                
+           B#16#22 : Bereichslängenfehler bei lesen
+
+           B#16#23 : Bereichslängenfehler bei schreiben
+
+           B#16#28 : lesender Zugriff auf ein Byte, Wort oder Doppelwort mit 
+                     einem Pointer, dessen Bitadresse ungleich 0 ist.
+
+           B#16#29 : schreibender Zugriff auf ein Byte, Wort oder Doppelwort 
+                     mit einem Pointer, dessen Bitadresse ungleich 0 ist.
+
+           B#16#24 : Bereichsfehler bei lesen
+
+           B#16#25 : Bereichsfehler bei schreiben
+
+           B#16#26 : Fehler bei Timernummer
+
+           B#16#27 : Fehler bei Zählernummer
+
+           B#16#30 : Schreibender Zugriff auf einen schreibgeschützten Global-DB
+
+           B#16#31 : Schreibender Zugriff auf einen schreibgeschützten 
+                     Instanz-DB
+
+           B#16#32 : DB-Nummernfehler beim Zugriff auf einen Global-DB
+
+           B#16#33 : DB-Nummernfehler beim Zugriff auf einen Instanz-DB
+
+
+
+Fehlermeldung erzeugen
+
+Fehlercode B#16#21 : BCD-Konvertierungsfehler
+                                
+           B#16#22 : Bereichslängenfehler bei lesen
+
+           B#16#23 : Bereichslängenfehler bei schreiben
+
+           B#16#28 : lesender Zugriff auf ein Byte, Wort oder Doppelwort mit 
+                     einem Pointer, dessen Bitadresse ungleich 0 ist.
+
+           B#16#29 : schreibender Zugriff auf ein Byte, Wort oder Doppelwort 
+mit 
+                     einem Pointer, dessen Bitadresse ungleich 0 ist.
+
+           B#16#24 : Bereichsfehler bei lesen
+
+           B#16#25 : Bereichsfehler bei schreiben
+
+           B#16#26 : Fehler bei Timernummer
+
+           B#16#27 : Fehler bei Zählernummer
+
+           B#16#30 : Schreibender Zugriff auf einen schreibgeschützten Global-DB
+
+           B#16#31 : Schreibender Zugriff auf einen schreibgeschützten 
+                     Instanz-DB
+
+           B#16#32 : DB-Nummernfehler beim Zugriff auf einen Global-DB
+
+           B#16#33 : DB-Nummernfehler beim Zugriff auf einen Instanz-DB
+
+           B#16#34 : FC-Nummernfehler beim FC-Aufruf
+
+           B#16#35 : FB-Nummernfehler beim FB-Aufruf
+
+           B#16#3A : Zugriff auf einen nicht geladenen DB
+
+           B#16#3C : Zugriff auf einen nicht geladenen FC
+
+           B#16#3D : Zugriff auf einen nicht geladenen SFC
+
+           B#16#3E : Zugriff auf einen nicht geladenen FB
+
+           B#16#3F : Zugriff auf einen nicht geladenen SFB
+
+";""
+"Über die Simulaitonsmerker ""M 0.5 Simulation intern"" oder ""M 0.6 Simulation 
+AVP"" 
+wird die Funktion des FUs simuliert:
+- Fehler werden zurückgesetzt
+- Bei Freigabe Istdrehzahl=Solldrehzahl, Betrieb und Solldrehzahl erreicht = 
+True";"Über die Simulaitonsmerker ""M 0.5 Simulation intern"" oder ""M 0.6 Simulation 
+AVP"" 
+wird die Funktion des FUs simuliert:
+- Fehler werden zurückgesetzt
+- Bei Freigabe Istdrehzahl=Solldrehzahl, Betrieb und Solldrehzahl erreicht = 
+True";""
+"Störung resetten";"Störung resetten";""
+"UFP-Parameter und FU-Daten auslesen mit SFC14
+PEA_Adresse zeigt auf den Anfang des EA-Bereiches.";"UFP-Parameter und FU-Daten auslesen mit SFC14
+PEA_Adresse zeigt auf den Anfang des EA-Bereiches.";""
+"Istdrehzahl in 0,2 U/min";"Istdrehzahl in 0,2 U/min";""
+"Istfrequenz (in Hz) = Istdrehzahl (in 0,2 U/min) / 5 * Nennfrequenz / 
+Nenndrehzahl ";"Istfrequenz (in Hz) = Istdrehzahl (in 0,2 U/min) / 5 * Nennfrequenz / 
+Nenndrehzahl ";""
+"Störungsbit aus Statuswort auswerten";"Störungsbit aus Statuswort auswerten";""
+"Gerätezustand wenn Bit Störung/Warnung = 0
+Störungsnummer wenn Bit Störung/Warnung = 1";"Gerätezustand wenn Bit Störung/Warnung = 0
+Störungsnummer wenn Bit Störung/Warnung = 1";""
+"Solldrehzahl (in 0,2 HZ) 
+== Sollfrequenz (in Hz) * 5 * Nenndrehzahl / Nennfrequenz
+";"Solldrehzahl (in 0,2 HZ) 
+== Sollfrequenz (in Hz) * 5 * Nenndrehzahl / Nennfrequenz
+";""
+"Zur Standardisierung der E/A-Parameter aller FUs";"Zur Standardisierung der E/A-Parameter aller FUs";""
+"Einschaltverzögerung";"Einschaltverzögerung";""
+"Ausschaltverzögerung";"Ausschaltverzögerung";""
+"Verlängerter Impuls";"Verlängerter Impuls";""
+"Impuls";"Impuls";""
+"Wenn keine Freigabe mehr anliegt werden die in_out Parameter auf 0 gesetzt.
+";"Wenn keine Freigabe mehr anliegt werden die in_out Parameter auf 0 gesetzt.
+";""
+"Wenn der Takt mit einem Impuls gestartet werden soll, wird der Ausgang beim 
+Start des Taktes zunächst auf 1 gesetzt.
+Bedingung: Zeitzähler und Taktzähler müssen 0 sein";"Wenn der Takt mit einem Impuls gestartet werden soll, wird der Ausgang beim 
+Start des Taktes zunächst auf 1 gesetzt.
+Bedingung: Zeitzähler und Taktzähler müssen 0 sein";""
+"Abfrage ob Taktanzahl erreicht ist";"Abfrage ob Taktanzahl erreicht ist";""
+"Erhöhung des Zeitzählers während der Impulsphase
+Ist die Sollzeit erreicht wird der Taktzähler erhöht, der Taktausgang 
+zurückgesetzt und der Zeitzähler wieder auf 0 gesetzt";"Erhöhung des Zeitzählers während der Impulsphase
+Ist die Sollzeit erreicht wird der Taktzähler erhöht, der Taktausgang 
+zurückgesetzt und der Zeitzähler wieder auf 0 gesetzt";""
+"Erhöhung des Zeitzählers während der Pausephase
+Ist die Sollzeit erreicht wird der Taktzähler erhöht, der Taktausgang 
+gesetzt und der Zeitzähler wieder auf 0 gesetzt.
+Ist die Solltaktzahl erreicht erfolgt keine weiter Bearbeitung des Netzwerks";"Erhöhung des Zeitzählers während der Pausephase
+Ist die Sollzeit erreicht wird der Taktzähler erhöht, der Taktausgang 
+gesetzt und der Zeitzähler wieder auf 0 gesetzt.
+Ist die Solltaktzahl erreicht erfolgt keine weiter Bearbeitung des Netzwerks";""
+"Minus 4 wegen DWORD-Auswertung";"Minus 4 wegen DWORD-Auswertung";""
+"Bereichscodierung für Quelltyp durchführen
+Operandenbereich im bereichsübergreifenden Zeiger
+
+Aufbau des bereichsübergreifenden Zeigers:  10000ZZZ 00000yyy yyyyyyyy yyyyyxxx
+      z = Operandenbereich (codiert)
+      y = Byte-Adresse
+      x = Bit-Adresse
+    ";"Bereichscodierung für Quelltyp durchführen
+Operandenbereich im bereichsübergreifenden Zeiger
+
+Aufbau des bereichsübergreifenden Zeigers:  10000ZZZ 00000yyy yyyyyyyy yyyyyxxx
+      z = Operandenbereich (codiert)
+      y = Byte-Adresse
+      x = Bit-Adresse
+    ";""
+"Überprüfen bei Quelltyp = D,I : Baustein existiert und ist ausreichend lang";"Überprüfen bei Quelltyp = D,I : Baustein existiert und ist ausreichend lang";""
+"Quelle vom Typ ""ANY"" erstellen";"Quelle vom Typ ""ANY"" erstellen";""
+"Bereichscodierung für Zieltyp durchführen
+Operandenbereich im bereichsübergreifenden Zeiger
+
+Aufbau des bereichsübergreifenden Zeigers:  10000ZZZ 00000yyy yyyyyyyy yyyyyxxx
+      z = Operandenbereich (codiert)
+      y = Byte-Adresse
+      x = Bit-Adresse
+    ";"Bereichscodierung für Zieltyp durchführen
+Operandenbereich im bereichsübergreifenden Zeiger
+
+Aufbau des bereichsübergreifenden Zeigers:  10000ZZZ 00000yyy yyyyyyyy yyyyyxxx
+      z = Operandenbereich (codiert)
+      y = Byte-Adresse
+      x = Bit-Adresse
+    ";""
+"Überprüfen bei Zieltyp = D,I : Baustein existiert und ist ausreichend lang";"Überprüfen bei Zieltyp = D,I : Baustein existiert und ist ausreichend lang";""
+"Ziel vom Typ ""ANY"" erstellen";"Ziel vom Typ ""ANY"" erstellen";""
+"Blocktransfer mit Systemfunktion SFC20";"Blocktransfer mit Systemfunktion SFC20";""
+"Rückgabewert des SFC20 übergeben";"Rückgabewert des SFC20 übergeben";""
+"geschwindigkeitsopitmiert:
+- Schleifenzäehler bleibt in AKKU1 und AKKU2
+- Kopieren über Worte, letztes Byte (ungerade Bytezahl) separat.";"geschwindigkeitsopitmiert:
+- Schleifenzäehler bleibt in AKKU1 und AKKU2
+- Kopieren über Worte, letztes Byte (ungerade Bytezahl) separat.";""
+"jede Sekunde wird der Sekundenzähler erhöht und beim erreichen von 3600 
+Sekunden wird eine Betriebsstunde addiert. (nur über Gleitpunktwert zu ungenau)";"jede Sekunde wird der Sekundenzähler erhöht und beim erreichen von 3600 
+Sekunden wird eine Betriebsstunde addiert. (nur über Gleitpunktwert zu ungenau)";""
+"Es wird die Schalthäufigkeit der Ventile gezählt !  ";"Es wird die Schalthäufigkeit der Ventile gezählt !  ";""
+"Stati:
+-------
+1 = nicht angesteuert, Ventil in Position 1, keine Störung ==> grau
+2 = nicht angesteuert, Ventil in Position 2, keine Störung ==> grau
+5 = Position 1 angesteuert, Ventil in Position 1, keine Störung ==> grün
+6 = Position 2 angesteuert, Ventil in Position 2, keine Störung ==> grün
+9 = Position 1 angesteuert, Ventil nicht in Position 1, keine Störung ==> weiß
+10 = Position 2 angesteuert, Ventil nicht in Position 2, keine Störung ==> weiß
+14 = Störung, quittierpflichtig, Ausgang nicht angesteuert, Störung ==> rot/weiß
+15 = Störung, nicht quittierpflichtig, Ausgang angesteuert, Störung ==> rot/grün
+16 = Störung quittiert ==> rot";"Stati:
+-------
+1 = nicht angesteuert, Ventil in Position 1, keine Störung ==> grau
+2 = nicht angesteuert, Ventil in Position 2, keine Störung ==> grau
+5 = Position 1 angesteuert, Ventil in Position 1, keine Störung ==> grün
+6 = Position 2 angesteuert, Ventil in Position 2, keine Störung ==> grün
+9 = Position 1 angesteuert, Ventil nicht in Position 1, keine Störung ==> weiß
+10 = Position 2 angesteuert, Ventil nicht in Position 2, keine Störung ==> weiß
+14 = Störung, quittierpflichtig, Ausgang nicht angesteuert, Störung ==> rot/weiß
+15 = Störung, nicht quittierpflichtig, Ausgang angesteuert, Störung ==> rot/grün
+16 = Störung quittiert ==> rot";""
+"Impulsmerker für Takte 2.0s, 1.6s, 1.0s, 0.8s, 0.5s, 0.4s, 0.2s, 0.1s
+positive Flankenauswertung auf die von der CPU erzeugten Takte";"Impulsmerker für Takte 2.0s, 1.6s, 1.0s, 0.8s, 0.5s, 0.4s, 0.2s, 0.1s
+positive Flankenauswertung auf die von der CPU erzeugten Takte";""
+"!! Abhängig von Zykluszeit !! ";"!! Abhängig von Zykluszeit !! ";""
+"Takt Melderentprellung";"Takt Melderentprellung";""
+"(009) komplettes Netzwerk gelöscht.
+Dauertakt nur, wenn Bit in Struktur = TRUE 
+Anzahl Takte ist egal!!!";"(009) komplettes Netzwerk gelöscht.
+Dauertakt nur, wenn Bit in Struktur = TRUE 
+Anzahl Takte ist egal!!!";""
+"!!!!! Beispiel !!!!!  
+";"!!!!! Beispiel !!!!!  
+";""
+"Wandlung von Integer in BCD-Format ";"Wandlung von Integer in BCD-Format ";""
+"read date and time ";"read date and time ";""
+"Wandlung von BCD_Format in Integer";"Wandlung von BCD_Format in Integer";""
