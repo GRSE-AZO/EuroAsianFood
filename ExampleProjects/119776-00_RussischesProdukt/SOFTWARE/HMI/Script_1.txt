@@ -1,0 +1,89 @@
+Sub ReadRecipeNames(ByVal VisuSystem, ByVal NumberNames)
+'Tip:
+' 1. Verwenden Sie die Tastenkombination <CTRL+SPACE> oder <CTRL+I>, um eine Liste aller Objekte und Funktionen zu öffnen
+' 2. Schreiben Sie den Code unter Verwendung des HMI Runtime Objekts.
+'  Beispiel: HmiRuntime.Screens("Screen_1").
+' 3. Verwenden Sie die Tastenkombination <CTRL+J>, um eine Objektreferenz zu erstellen.
+'Schreiben Sie den Code ab dieser Position:
+
+'****************************************************************************
+'**  NAME     : ReadMixerstep    
+'**  FUNCTION : Get the Text to the actual mixer code from a file
+'**             MixerNo (1,2,...)  Language ("D", "GB", ....)
+'**             varname_mixerstep (zb. "Text_Mischerschritt")
+'****************************************************************************
+
+    Dim f,fs,fso, filename, textfile, Line_Textfile, Language2, datei, language
+    Dim i, TagValue, TagName
+    Const ForReading = 1, ForWriting=8
+    
+  	
+
+	
+	Select Case HmiRuntime.Language
+		Case 1030
+			language = "DK"
+		Case 1031
+			language = "D"
+		Case 1033
+			language = "GB"
+		Case 1036
+			language = "F"
+		Case 1040
+			language = "I"
+		Case 1045
+			language = "PL"
+		Case 1046
+			language = "P"
+		Case 2057
+			language = "GB"
+		Case 2070
+			language = "P"
+		Case 1049
+			language = "RU"
+		Case Else
+			language = "D"
+	End Select																		'Panel
+'***********************************************************************************************
+	If VisuSystem = 1 Then ' PC
+
+'***********************************************************************************************	
+	' Zugriffsart
+    	Set fso = CreateObject("Scripting.FileSystemObject")								'PC
+'***********************************************************************************************   	
+   	' File Name 
+		filename = "C:\TIA\Recipes\" & "Recipes_"& language & ".csv" 			'PC
+'***********************************************************************************************
+'On Error Resume Next												
+'***********************************************************************************************
+	' open File
+		Set textfile = fso.OpenTextFile(filename, ForReading, True, -1)
+ 
+'*********************************************************************************************** 
+'On Error Resume Next       	
+     ' Datei Write 
+     	If fso.FileExists (filename) Then
+			i =1	   
+			'Do While textfile.AtEndOfStream <> True
+			For i = 1 To NumberNames	
+				TagName="Recipe"&CStr(i)
+				TagValue=textfile.ReadLine
+				SmartTags(TagName)=TagValue
+			'	i=i+1	
+			Next
+			'Loop 
+		Else
+			Set fso = Nothing			'PC
+	    	Set textfile = Nothing													'PC
+			Exit Sub
+		End If 
+'***********************************************************************************************		
+        textfile.Close
+    	Set fso = Nothing			'PC
+	    Set textfile = Nothing													'PC
+'***********************************************************************************************
+End If
+
+
+
+End Sub

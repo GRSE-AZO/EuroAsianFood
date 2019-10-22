@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
+<LogFile titleName="Alarme Log_6.xml" projectName="P:\Projekte\Standard TP1500\Standardprojekt TP1500\Alarme.xlsx" typeText="Typ" messageText="Meldung" timeText="Zeit">
+  <LogEntry type="Information" dateTime="11:16:00">
+    <Message>Import beendet: 1024 Bitmeldungen; 0 Analogmeldungen</Message>
+  </LogEntry>
+</LogFile>

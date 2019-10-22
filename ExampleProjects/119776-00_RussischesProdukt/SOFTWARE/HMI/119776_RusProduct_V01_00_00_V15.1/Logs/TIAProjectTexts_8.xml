@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
+<LogFile titleName="TIAProjectTexts_8.xml" projectName="D:\TiaExport\TIAProjectTexts.xlsx" typeText="Type" messageText="Message" timeText="Time">
+  <LogEntry type="Information" dateTime="11:37:57 AM">
+    <Message>Text import started.</Message>
+  </LogEntry>
+  <LogEntry type="Information" dateTime="11:37:58 AM">
+    <Message>Text import completed.</Message>
+  </LogEntry>
+</LogFile>

@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
+<LogFile titleName="Alarme Log_2.xml" projectName="P:\Projekte\Standard TP1500\Standardprojekt TP1500\Alarme.xlsx" typeText="Typ" messageText="Meldung" timeText="Zeit">
+  <LogEntry type="Warning" dateTime="11:05:56">
+    <Message>Meldenummer 1009: Der Name Bitmeldung_993 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1009 geändert. (Spalte 'Name', Zeile 1010).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:05:56">
+    <Message>Meldenummer 1010: Der Name Bitmeldung_994 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1010 geändert. (Spalte 'Name', Zeile 1011).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:05:56">
+    <Message>Meldenummer 1011: Der Name Bitmeldung_995 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1011 geändert. (Spalte 'Name', Zeile 1012).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:05:56">
+    <Message>Meldenummer 1012: Der Name Bitmeldung_996 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1012 geändert. (Spalte 'Name', Zeile 1013).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:05:56">
+    <Message>Meldenummer 1013: Der Name Bitmeldung_997 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1013 geändert. (Spalte 'Name', Zeile 1014).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:05:56">
+    <Message>Meldenummer 1014: Der Name Bitmeldung_998 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1014 geändert. (Spalte 'Name', Zeile 1015).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:05:56">
+    <Message>Meldenummer 1015: Der Name Bitmeldung_999 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1015 geändert. (Spalte 'Name', Zeile 1016).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:05:56">
+    <Message>Meldenummer 1016: Der Name Bitmeldung_1000 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1016 geändert. (Spalte 'Name', Zeile 1017).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:05:56">
+    <Message>Meldenummer 1017: Der Name Bitmeldung_1001 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1017 geändert. (Spalte 'Name', Zeile 1018).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:05:56">
+    <Message>Meldenummer 1018: Der Name Bitmeldung_1002 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1018 geändert. (Spalte 'Name', Zeile 1019).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:05:56">
+    <Message>Meldenummer 1019: Der Name Bitmeldung_1003 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1019 geändert. (Spalte 'Name', Zeile 1020).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:05:56">
+    <Message>Meldenummer 1020: Der Name Bitmeldung_1004 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1020 geändert. (Spalte 'Name', Zeile 1021).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:05:56">
+    <Message>Meldenummer 1021: Der Name Bitmeldung_1005 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1021 geändert. (Spalte 'Name', Zeile 1022).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:05:56">
+    <Message>Meldenummer 1022: Der Name Bitmeldung_1006 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1022 geändert. (Spalte 'Name', Zeile 1023).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:05:56">
+    <Message>Meldenummer 1023: Der Name Bitmeldung_1007 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1023 geändert. (Spalte 'Name', Zeile 1024).</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="11:05:56">
+    <Message>Meldenummer 1024: Der Name Bitmeldung_1008 der Meldung ist nicht eindeutig und wird zu Bitmeldung_1024 geändert. (Spalte 'Name', Zeile 1025).</Message>
+  </LogEntry>
+  <LogEntry type="Information" dateTime="11:05:56">
+    <Message>Import beendet: 1024 Bitmeldungen; 0 Analogmeldungen</Message>
+  </LogEntry>
+</LogFile>

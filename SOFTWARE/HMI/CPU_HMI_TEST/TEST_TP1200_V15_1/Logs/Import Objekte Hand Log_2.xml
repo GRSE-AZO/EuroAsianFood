@@ -1,0 +1,199 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
+<LogFile titleName="Import Objekte Hand Log_2.xml" projectName="C:\Users\azo\Desktop\Import Objekte Hand.xlsx" typeText="Typ" messageText="Meldung" timeText="Zeit">
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>In der XLSX-Datei ist die Version nicht angegeben. Für den Import wird die letzte Version angenommen.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_M1_01_10_201_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 2, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_M1_01_10_201_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_M1_02_10_201_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 3, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_M1_02_10_201_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_M1_03_10_201_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 4, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_M1_03_10_201_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_M1_04_10_201_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 5, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_M1_04_10_201_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_M1_01_03_201_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 6, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_M1_01_03_201_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_M1_01_04_201_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 7, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_M1_01_04_201_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_M1_01_13_201_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 8, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_M1_01_13_201_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_M1_01_13_202_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 9, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_M1_01_13_202_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_01_01_101_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 10, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_01_01_101_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_01_01_102_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 11, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_01_01_102_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_01_01_103_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 12, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_01_01_103_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_01_01_104_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 13, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_01_01_104_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_01_01_105_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 14, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_01_01_105_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_01_03_101_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 15, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_01_03_101_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_01_03_102_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 16, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_01_03_102_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_01_03_103_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 17, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_01_03_103_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_01_02_101_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 18, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_01_02_101_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_01_02_102_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 19, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_01_02_102_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_01_02_103_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 20, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_01_02_103_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_01_02_104_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 21, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_01_02_104_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_01_02_105_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 22, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_01_02_105_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_01_04_101_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 23, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_01_04_101_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_01_04_102_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 24, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_01_04_102_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_01_04_103_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 25, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_01_04_103_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_01_10_101_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 26, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_01_10_101_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_01_12_101_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 27, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_01_12_101_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_02_10_101_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 28, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_02_10_101_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_02_01_101_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 29, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_02_01_101_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_02_01_102_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 30, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_02_01_102_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_02_01_103_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 31, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_02_01_103_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_02_01_104_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 32, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_02_01_104_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_03_10_101_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 33, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_03_10_101_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_03_01_101_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 34, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_03_01_101_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_03_01_102_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 35, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_03_01_102_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_03_01_103_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 36, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_03_01_103_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_03_01_104_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 37, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_03_01_104_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_04_10_101_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 38, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_04_10_101_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_04_01_101_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 39, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_04_01_101_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_04_01_102_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 40, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_04_01_102_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_04_01_103_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 41, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_04_01_103_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V1_04_01_104_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 42, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V1_04_01_104_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V2_01_11_101_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 43, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V2_01_11_101_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V4_01_03_104_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 44, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V4_01_03_104_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_V4_01_04_104_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 45, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_V4_01_04_104_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_01_01_601_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 46, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_01_01_601_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_01_01_602_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 47, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_01_01_602_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_01_01_603_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 48, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_01_01_603_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_01_03_601_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 49, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_01_03_601_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_01_02_601_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 50, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_01_02_601_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_01_02_602_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 51, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_01_02_602_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_01_02_603_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 52, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_01_02_603_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_01_04_601_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 53, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_01_04_601_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_01_12_601_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 54, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_01_12_601_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_01_12_602_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 55, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_01_12_602_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_02_01_601_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 56, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_02_01_601_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_02_01_602_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 57, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_02_01_602_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_02_01_603_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 58, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_02_01_603_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_03_01_601_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 59, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_03_01_601_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_03_01_602_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 60, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_03_01_602_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_03_01_603_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 61, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_03_01_603_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_04_01_601_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 62, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_04_01_601_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_04_01_602_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 63, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_04_01_602_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Warning" dateTime="13:02:41">
+    <Message>Der Wert 0 der HMI-Variable AZO_AG1_BI_04_01_603_Hand wurde in Arbeitsblatt Hmi Tags,Zeile 64, Spalte Limit Upper 2 Type nicht gefunden werden. AZO_AG1_BI_04_01_603_Hand wird nicht vollständig importiert.</Message>
+  </LogEntry>
+  <LogEntry type="Information" dateTime="13:02:41">
+    <Message>Import beendet: 63 Variablen importiert.</Message>
+  </LogEntry>
+</LogFile>

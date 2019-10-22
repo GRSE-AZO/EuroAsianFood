@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
+<LogFile titleName="HMITextListsorg.xlsx_import_log.xml" projectName="C:\Import\HMITextListsorg.xlsx" typeText="Typ" messageText="Meldung" timeText="Zeit">
+  <LogEntry type="Information" dateTime="07:38:25">
+    <Message>Import beendet: 49 Textlisten mit 360 Einträgen.</Message>
+  </LogEntry>
+</LogFile>
