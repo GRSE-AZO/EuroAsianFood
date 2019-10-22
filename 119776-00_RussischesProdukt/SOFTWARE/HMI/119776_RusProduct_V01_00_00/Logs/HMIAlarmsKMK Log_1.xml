@@ -1,7 +1,0 @@
-<?xml version="1.0" standalone="no"?>
-<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
-<LogFile titleName="HMIAlarmsKMK Log_1.xml" projectName="D:\TiaExport\HMIAlarmsKMK.xlsx" typeText="Type" messageText="Message" timeText="Time">
-  <LogEntry type="Information" dateTime="09:11:02 AM">
-    <Message>Import finished: 1816 discrete alarms; 0 analog alarms</Message>
-  </LogEntry>
-</LogFile>

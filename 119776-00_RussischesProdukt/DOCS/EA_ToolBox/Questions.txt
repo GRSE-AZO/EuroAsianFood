@@ -1,7 +1,0 @@
-1. Steuer Spannung EIN/AUS - Panel oder Taste. Die letzte Projekte machte ich aus dem Panel. 
-2. SEW mit Profinet!!!!
-3. ToolBox Frage - wir machen dierekte Anschluss zur FU (Ohne Schuetze) - im Toolbox bzw. Diagramme zeige ich trotzdem die E/A 's oder? 
-4. Lids - die sind keine GZ!!!!!
-5. Druck Schalter oder Druck Transmitter SF01? 
-6. Schleuse ist ohne Lager Spuelung? 
-7. Vibro Rionne - 2 Freigabe (laut Beschreibung) - wir aber brauchen nur 1, 1 ist gebrueckt oder?  

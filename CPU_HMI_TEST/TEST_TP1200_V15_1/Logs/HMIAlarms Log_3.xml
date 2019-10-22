@@ -1,7 +1,0 @@
-<?xml version="1.0" standalone="no"?>
-<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
-<LogFile titleName="HMIAlarms Log_3.xml" projectName="P:\Projekte\Standard TP1500\Standardprojekt TP1500\HMIAlarms.xlsx" typeText="Typ" messageText="Meldung" timeText="Zeit">
-  <LogEntry type="Information" dateTime="14:05:12">
-    <Message>Import beendet: 1680 Bitmeldungen; 0 Analogmeldungen</Message>
-  </LogEntry>
-</LogFile>

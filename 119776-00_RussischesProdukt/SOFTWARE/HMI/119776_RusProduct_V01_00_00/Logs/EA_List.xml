@@ -1,7 +1,0 @@
-<?xml version="1.0" standalone="no"?>
-<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
-<LogFile titleName="EA_List.xml" projectName="C:\Users\AZO\Desktop\EA_List.xlsx" typeText="Typ" messageText="Meldung" timeText="Zeit">
-  <LogEntry type="Error" dateTime="19:07:58">
-    <Message>Tabellenblatt "PLC Tags" hat nicht das erforderliche Format.</Message>
-  </LogEntry>
-</LogFile>

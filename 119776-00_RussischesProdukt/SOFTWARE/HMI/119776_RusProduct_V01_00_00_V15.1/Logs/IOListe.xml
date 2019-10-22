@@ -1,7 +1,0 @@
-<?xml version="1.0" standalone="no"?>
-<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
-<LogFile titleName="IOListe.xml" projectName="C:\Users\AZO\Desktop\IOListe.xlsx" typeText="Typ" messageText="Meldung" timeText="Zeit">
-  <LogEntry type="Error" dateTime="21:22:16">
-    <Message>Die in Zeile 3363 von Tabellenblatt "PLC Tags" definierte Variable konnte nicht importiert werden.</Message>
-  </LogEntry>
-</LogFile>

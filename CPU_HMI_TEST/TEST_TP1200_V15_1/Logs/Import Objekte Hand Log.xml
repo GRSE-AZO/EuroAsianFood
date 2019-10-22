@@ -1,7 +1,0 @@
-<?xml version="1.0" standalone="no"?>
-<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
-<LogFile titleName="Import Objekte Hand Log.xml" projectName="C:\Users\azo\Desktop\Import Objekte Hand.xlsx" typeText="Typ" messageText="Meldung" timeText="Zeit">
-  <LogEntry type="Error" dateTime="09:51:08">
-    <Message>In Arbeitsblatt Hmi Tags befinden sich unbekannte Header-Informationen . Der Import wird abgebrochen.</Message>
-  </LogEntry>
-</LogFile>

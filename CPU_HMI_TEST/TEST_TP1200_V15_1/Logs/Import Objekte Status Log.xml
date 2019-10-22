@@ -1,7 +1,0 @@
-<?xml version="1.0" standalone="no"?>
-<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
-<LogFile titleName="Import Objekte Status Log.xml" projectName="C:\Users\azo\Desktop\Import Objekte Status.xlsx" typeText="Typ" messageText="Meldung" timeText="Zeit">
-  <LogEntry type="Error" dateTime="09:41:53">
-    <Message>Die Mappe "Hmi Tags" konnte in der angegebenen Datei nicht gefunden werden. Der Import wird abgebrochen.</Message>
-  </LogEntry>
-</LogFile>

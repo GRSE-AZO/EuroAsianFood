@@ -1,7 +1,0 @@
-<?xml version="1.0" standalone="no"?>
-<?xml-stylesheet type='text/xsl' href='MassDataHandlerLogFile.xsl'?>
-<LogFile titleName="Hochland_Objekts Log.xml" projectName="E:\Projekte\H\Hochland\Hochland_Objekts.xlsx" typeText="Typ" messageText="Meldung" timeText="Zeit">
-  <LogEntry type="Error" dateTime="08:57:26">
-    <Message>Die Mappe "Hmi Tags" konnte in der angegebenen Datei nicht gefunden werden. Der Import wird abgebrochen.</Message>
-  </LogEntry>
-</LogFile>
